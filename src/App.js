@@ -2,8 +2,6 @@ import React from "react";
 import "./App.css";
 import CourseSheet from "./components/CourseSheet";
 
-// import HideableText from'./HideableText';
-
 function App() {
   let sems = [
     { sno: 1, name: "1st" },
@@ -36,5 +34,4 @@ function App() {
   );
 }
 
-//<AutoCompleteText items={countries} />
 export default App;
